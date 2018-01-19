@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+input[type='radio'] {
+    min-width: auto !important;
+    height: 16px !important;
+    display: inline-block !important;
+    margin-bottom: 15px;
+}
+
+a.selected {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.pagination1 {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.pagination1 a {
+    padding: 5px 10px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    box-shadow: 0px 1px 1px #DDD;
+    font-size: 15px;
+}
+
+.pagination1 a:hover,
+.pagination1 a:visited,
+.pagination1 a:focus {
+    text-decoration: none;
+}
+
+.show_image img {
+    max-width: 100%;
+    margin-top: 5px;
+}
+
+.show_image {
+    text-align: center;
+}
+
+.show_images img {
+    max-width: 100%;
+    margin-top: 5px;
+}
+
+.show_images {
+    text-align: center;
+}
+
+/* Start Global And bootstarp ************************************************/
+
+body {
+    background-color: #f1f1f1 !important;
+    font-family: 'Roboto', tahoma, arial !important;
+}
+
+.modal-content {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.11);
+    border: 0;
+    height: auto;
+    width: 310px;
+    padding: 14px;
+}
+
+.alert.alert-danger {
+    border-radius: 1px;
+    margin: 4px;
+    padding: 10px;
+}
+
+.alert.alert-success {
+    border-radius: 1px;
+    margin: 4px;
+    padding: 10px;
+}
+
+.modal {
+    top: 30px;
+    background-color: rgba(255, 255, 255, 0.62);
+}
+
+label {
+    margin-top: 5px;
+}
+
+.container {
+    width: 1155px;
+}
+
+.panel-body {
+    padding: 5px;
+}
+
+.panel-primary {
+    border: none;
+    border: 1px solid #DDD 
+}
+
+.panel-primary .panel-heading > i {
+    cursor: pointer;
+}
+
+.panel-primary >
+.panel-heading {
+    color: #313131;
+    background-color: #ffffff;
+    border-bottom: 2px solid #337ab7;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* End Global And bootstarp **************************************************/
+/* Start Page Add Item *******************************************************/
+
+
+.container.send input, 
+.container.send select  {
+    height: 40px;
+    padding: 5px;
+}
+
+.container.send input,
+.container.send textarea,
+.container.send select {
+	display: block;
+    min-width: 100%;
+}
+
+input.btn.btn-primary.btn-lg {
+    background-color: white;
+    color: #000;
+    border: 1px solid #DDD;
+    border-radius: 0;
+}
+
+.container.send {
+    max-width: 400px;
+    text-align: left;
+    margin: 0;
+    background-color: #fff;
+    padding: 20px 20px;
+    border: 1px solid #DDD;
+    margin: 20px 0;
+}
+
+.send_images {
+    display: none;
+}
+
+.main_image_item {
+    max-width: 250px;
+    margin-bottom: 15px;
+} 
+
+.custom_file {
+    height: 46px;
+    position: relative;
+    z-index: 3;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: white;
+    cursor: pointer;
+}
+
+.custom_file input[type="file"] {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    cursor: pointer;
+}
+
+.custom_file i {
+    position: absolute;
+    z-index: 6;
+    top: 10px;
+    right: 10px;
+}
+
+.custom_file span {
+    font-weight: bold;
+    line-height: 2;
+    margin: 17px;
+    font-size: 21px;
+}
+
+.Image_for_slider {
+    max-width: 150px;
+    margin: 4px;
+}
+
+.Image_new_item {
+    max-width: 250px;
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+}
+
+.send-item1 .gallery {
+    margin: auto;
+    text-align: center;
+    max-width: 550px;
+}
+
+.send-item1 .gallery img {
+    max-width: 180px;
+    margin: 4px 4px;
+    display: inline-block;
+}
+
+/* end Page Add Item *********************************************************/
+/* Start Page View Items *****************************************************/
+
+.table {
+    width: 0 !important; 
+    margin: 20px auto;
+}
+
+.table {
+    width: 100%; 
+    max-width: 100%; 
+    margin-bottom: 20px;
+    background-color: #FFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    margin: 20px auto;
+}
+
+tr {
+    background-color: #FFF;
+}
+
+tr.head_table {
+    background-color: #FFF;
+    border-bottom: 2px solid #5b9dd9;
+} 
+
+/* Start Page View Items *****************************************************/
+/* start Dashboard page ******************************************************/
+
+.stats {
+    padding: 20px;
+    font-size: 15px;
+    color: #544848;
+    position: relative;
+    min-height: 132px;
+    margin-bottom: 10px;
+    border: 1px solid #DDD;
+    margin-top: 20px;
+}
+
+.stats a {
+    color: #333;
+    text-decoration: none;
+}
+
+.stats .count5 {
+    position: absolute;
+    right: 35px;
+    margin-top: 13px;
+}
+
+.stats .count5 h1 {
+    margin: 2px;
+}
+
+.stats.mem {
+    background-color: #fff;
+}
+
+.stats.mem i {
+    font-size: 100px;
+    position: absolute;
+    left: 10px;
+}
+
+.stats.p-mem i {
+    font-size: 100px;
+    position: absolute;
+    left: 10px;
+}
+
+.stats.tot-i i {
+    font-size: 100px;
+    position: absolute;
+    left: 10px;
+}
+
+.stats.tot-com i {
+    font-size: 100px;
+    position: absolute;
+    left: 10px;
+}
+
+.stats.mem span {
+    text-align: center;
+    font-size: 14px;
+}
+
+.stats.p-mem span {
+    text-align: center;
+    font-size: 14px;
+}
+
+.stats.tot-i span {
+    text-align: center;
+    font-size: 14px;
+}
+
+.stats.tot-com span {
+    text-align: center;
+    font-size: 14px;
+}
+
+.stats.p-mem {
+    background-color: #fff;
+}
+
+.stats.p-mem:hover a {
+    color: #333;
+    text-decoration: none;
+}
+
+.stats.tot-i {
+    background-color: #fff;
+}
+
+.stats.tot-com {
+    background-color: #fff;
+}
+
+.home-stats span {
+    display: block;
+    font-size: 50px;
+}
+
+.latest {
+    margin-top: 30px;
+}
+
+.latest-users li {
+    padding: 5px 5px;
+    overflow: hidden;
+    border-bottom: 1px solid #DDD;
+}
+
+.latest-users li:last-of-type {
+    border-bottom: none;
+}
+
+.latest .comment-u {
+    padding: 4px;
+    color: #444444;
+    font-weight: bold;
+    margin: 2px;
+    background-color: rgba(162, 135, 135, 0.15);
+}
+
+.comment-box {
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 5px;
+}
+
+.comment-box:last-of-type {
+    border-bottom: none;
+    padding-bottom: 5px;
+}
+
+.latest .comment-c {
+    margin: 2px;
+    padding: 2px 5px;
+    color: #333;
+    font-style: italic;
+}
+
+.comment-box i {
+    font-size: 5px;
+    font-weight: 100;
+}
+
+.active1 {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.likes_span {
+    padding: 5px 10px;
+    border: 1px solid #DDD;
+}
+
+
+/* end Dashboard page *************************************************/
+/* start category *****************************************************/
+
+.container.cats {
+    margin: 0;
+    padding: 0;
+}
+
+.cat {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 0;
+    transition: all .2s ease;
+    border-bottom: 1px #DDD solid;
+}
+
+.cat:last-of-type {
+    border: none;
+}
+
+.cats .hidden-buttom {
+    top: 20px;
+    right: -20%;
+    position: absolute;
+    transition: all .5s ease-in-out;
+}
+
+@media (max-width: 767px){
+    
+    .cats .hidden-buttom {
+        right: -85%;
+    }
+}
+
+.cats .ORDERING {
+    margin: 11px 9px;
+    color: #DDD;
+}
+
+.cats .ORDERING a {
+    text-decoration: none;
+}
+
+.cat:hover .hidden-buttom {
+    right: 0
+}
+
+.cats .hidden-buttom a {
+    margin-right: 6px;
+}
+
+.cats .cat .vis,
+.cats .cat .com,
+.cats .cat .ads {
+    padding: 2px 6px;
+    margin-right: 4px;
+    border-radius: 1px;
+    color: #2d2d2d;
+    background-color: #e2e6e5;
+}
+
+.cats .cat h3 {
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.add-Category {
+    margin-bottom: 40px;
+}
+
+.add-Category i {
+    color: #444444;
+}
+
+.cat-satus-show {
+    margin-bottom: 15px;
+}
+
+/* end category **********************************************/

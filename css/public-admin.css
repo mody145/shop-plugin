@@ -1,0 +1,31 @@
+
+.dashicons-format-chat:before {
+    content: "\f125";
+    color: #ff9200 !important;
+}
+
+.dashicons-universal-access:before {
+    content: "\f483";
+    color: #ff9200 !important;
+}
+
+.dashicons-category:before {
+    content: "\f318";
+    color: #ff9200 !important;
+}
+
+.dashicons-cart:before {
+    content: "\f174";
+    color: #ff9200 !important;
+}
+
+.dashicons-editor-indent:before {
+    content: "\f222";
+    color: #ff9200 !important;
+}
+
+#wpadminbar #wp-admin-bar-shop .ab-icon:before {
+    content: "\f174"; // Change to a Dashicon of your choice
+    //top: 3px;
+    color: #ff9200;
+}
